@@ -1,0 +1,89 @@
+.wikipedia-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 250px;
+  height: 250px;
+  background: url("https://cdn.rawgit.com/ayoisaiah/wikipedia/96eba34b/src/images/wikipedia.png") top center no-repeat;
+  background-size: cover;
+  margin-bottom: -320px;
+}
+
+.main {
+  position: absolute;
+  width: 800px;
+}
+
+.randomArticle {
+  font-family: 'Raleway', sans-serif;
+  color: #076d8a;
+  font-size: 18px;
+
+  position: relative;
+
+  margin-top: 333px;
+  margin-bottom: -333px;
+
+  padding-left: 1px;
+}
+
+a {
+  color: #076d8a;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  background-color: #076d8a;
+  font-weight: 400;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+
+  height: 225px;
+  width: 100%;
+  margin-top: 340px;
+
+  padding-top: 75px;
+  position: fixed; <!-- IS THIS MAKING stuff hide behind it -->
+
+  display: block;
+}
+
+
+.searchForm-inputContainer {
+  padding: 0 10px;
+  margin-top: 500px;
+  position: fixed;
+  border-radius: 25px;
+  margin-left: 500px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.resultsContainer {
+  float: left;
+  position: relative;
+  margin-top: 130px;
+  margin-left: -425px;
+
+  margin-bottom: 20px;
+
+  overflow:scroll;
+  overflow-x:hidden;
+
+  height: 500px;
+}
+
+.resultItem-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+
+.resultItem-snippet {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-family: 'Raleway', sans-serif;
+}
