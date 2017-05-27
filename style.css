@@ -76,6 +76,8 @@ h1 {
   background: white;
   color: #076d8a;
   padding: 10px;
+.search:hover {
+  font-weight: 600;
 }
 
 .resultItem-snippet {
