@@ -1,4 +1,5 @@
 document.getElementById('loadMore').onclick = function () {
+document.getElementsByClassName('search-button')[0].onclick = function () {
   var input = document.getElementsByClassName('searchForm-input')[0].value
 
 
@@ -10,9 +11,16 @@ document.getElementById('loadMore').onclick = function () {
   })
   .then(json => {
     var results = document.getElementsByClassName('resultsContainer')[0]
+    results.innerHTML = ''
+
     json.query.search.forEach(function(obj) {
+      const url = `https://en.wikipedia.org/wiki/${obj.title.replace(/ /g, "_")}`;
+
       results.innerHTML = `
         ${results.innerHTML}
+        <a href=${url}
+           target='_blank'
+           class='title'>${obj.title.toUpperCase()}</a>
         <br>
         <span class='snippet'>${obj.snippet}</span>
         <br />
