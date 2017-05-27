@@ -96,6 +96,7 @@ h1 {
   padding-right: 10px;
   font-family: 'Raleway', sans-serif;
 .snippet {
+  padding-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   display: block;
