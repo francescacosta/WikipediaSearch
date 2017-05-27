@@ -72,6 +72,10 @@ h1 {
 .search-button {
   margin-top: 25px;
 }
+.search {
+  background: white;
+  color: #076d8a;
+  padding: 10px;
 }
 
 .resultItem-snippet {
