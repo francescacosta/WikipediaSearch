@@ -25,6 +25,8 @@ document.getElementsByClassName('search-button')[0].onclick = function () {
         <span class='snippet'>${obj.snippet}</span>
         <br />
       `
+
+      var load = document.getElementsByClassName('load-more')[0].style.display = "unset" 
     });
   })
 };
