@@ -29,6 +29,11 @@
   padding-left: 1px;
 }
 
+.randomArticle:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
 a {
   color: #076d8a;
   text-decoration: none;
